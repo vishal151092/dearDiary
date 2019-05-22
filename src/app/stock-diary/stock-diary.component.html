@@ -1,0 +1,21 @@
+<br>
+<br>
+
+<h3></h3>
+
+<div class="container">
+<ul class="list-group "  *ngFor="let diaryEntry of diaryEntryList">
+  <li class="list-group-item active">
+<div class=""><h5>{{diaryEntry.diaryHeading}}</h5></div>
+</li>
+
+
+<li class="list-group-item">
+<div class="">
+  <div ><span class="pull-right">{{diaryEntry.diaryEntryDate | date}}</span></div><br/>
+  <div class="entry-div"><span>{{diaryEntry.diaryEntry}}</span></div>
+  
+</div>
+  </li>
+</ul>
+</div>

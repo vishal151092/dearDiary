@@ -1,0 +1,11 @@
+.entry-div{
+    min-height: 120px;
+    width: 70%;
+    /* border: 1px solid lightgrey; */
+
+}
+.entry-div span{
+    padding: 15px;
+    margin-top: 50px;
+     
+}

@@ -1,0 +1,35 @@
+
+<div class="container">
+    <div class="panel panel-primary">
+
+<div class="panel-heading">
+  <h3>Scribble your thoughts here</h3>
+</div>
+
+<div class="panel-body">
+<form [formGroup]="DiaryEntryForm" (ngSubmit)="saveEntry()"> 
+  <div class="row">
+  <div class="col-md-12 form-group">
+<label for="heading">Heading </label>
+<input class="form-control" formControlName="diaryHeading" type="text" placeholder="Write heading for entry">  
+</div>
+  <div class="col-md-3 form-group">
+<label for="date">Date </label>
+<input type="text" formControlName="diaryEntryDate" bsDatepicker class="form-control" placeholder="Select a date" required>
+  </div>
+
+  <div class="col-md-12 form-group">
+      <label for="date">Story </label>
+      <textarea type="text" rows=10  formControlName="diaryEntry" class="form-control" placeholder="Write a story, thought or analysis here..."></textarea>
+        </div>
+  </div>
+
+
+  <button class="btn btn-primary save-btn" [disabled]="!DiaryEntryForm.valid">SAVE</button> 
+
+</form>
+</div>
+
+
+</div>
+</div>

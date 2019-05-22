@@ -1,0 +1,7 @@
+{
+    "Listdata": [
+        {"diaryHeading":"New Diary Entry ","diaryEntryDate":"2019-05-23T09:23:40.000Z","diaryEntry":"Russia loses 700 people every day. The Russian population is decreasing by approximately 700 people a day, or more than 250,000 people annually, according to the Eurasia Daily Monitor. Some cities, like Murmansk, have experienced population declines of more than 30% since the end of the Soviet Union. The decrease is due in part to aging demographics, falling immigration rates, and a failure by the government to enforce health and food regulations. Some observers place the blame on Western economic sanctions, which have contributed to Russian poverty and economic uncertainty. The decline could continue to pose problems for Russia's economy for years to come."},
+        {"diaryHeading":"New Diary Entry ","diaryEntryDate":"2019-05-23T09:23:40.000Z","diaryEntry":"The Architect API has tools to schedule and coordinate tasks, used by the CLI for its command implementations. It uses functions called builders as the implementation of a task (which can schedule other builders), and the workspace’s angular.json to resolve projects and targets to their builder implementation. It’s a very generic system built to be malleable and forward looking. It contains APIs for progress reporting, logging and testing, and can be extended for new features."},
+        {"diaryHeading":"New Diary Entry ","diaryEntryDate":"2019-05-23T09:23:40.000Z","diaryEntry":"test data 1"}
+    ] 
+}
